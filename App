@@ -1,7 +1,9 @@
 name = input ("What is Your Name? ")
 print("Hello " + name)
 print("1-10, What number am I thinking?")
-secret_number = 7
+import random
+x = random.randint(0,10)
+secret_number = x
 guess_count = 0
 guess_limit = 3
 while guess_count < guess_limit:
